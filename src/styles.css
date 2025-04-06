@@ -77,3 +77,36 @@ summary {
 details p {
   margin: 10px 0 0;
 }
+
+#postcode-zoeker {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#postcode-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#postcode {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#postcode-form button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#postcode-form button:hover {
+  background-color: #0056b3;
+}
